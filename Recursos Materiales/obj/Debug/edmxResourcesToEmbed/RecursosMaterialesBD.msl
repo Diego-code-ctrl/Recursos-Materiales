@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="RecursosModelStoreContainer" CdmEntityContainer="RecursosEntities">
+    <EntitySetMapping Name="Departamentos">
+      <EntityTypeMapping TypeName="RecursosModel.Departamentos">
+        <MappingFragment StoreEntitySet="Departamentos">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nombre_departamento" ColumnName="nombre_departamento" />
+          <ScalarProperty Name="contrasena" ColumnName="contrasena" />
+          <ScalarProperty Name="nombre_encargado" ColumnName="nombre_encargado" />
+          <ScalarProperty Name="id_edificio" ColumnName="id_edificio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Edificios">
+      <EntityTypeMapping TypeName="RecursosModel.Edificios">
+        <MappingFragment StoreEntitySet="Edificios">
+          <ScalarProperty Name="id_edificio" ColumnName="id_edificio" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Materiales">
+      <EntityTypeMapping TypeName="RecursosModel.Materiales">
+        <MappingFragment StoreEntitySet="Materiales">
+          <ScalarProperty Name="id_materiales" ColumnName="id_materiales" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="id_tipo" ColumnName="id_tipo" />
+          <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+          <ScalarProperty Name="costo" ColumnName="costo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Pedidos">
+      <EntityTypeMapping TypeName="RecursosModel.Pedidos">
+        <MappingFragment StoreEntitySet="Pedidos">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="fecha_pedido" ColumnName="fecha_pedido" />
+          <ScalarProperty Name="fecha_entrega" ColumnName="fecha_entrega" />
+          <ScalarProperty Name="id_material" ColumnName="id_material" />
+          <ScalarProperty Name="id_departamento" ColumnName="id_departamento" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tipos">
+      <EntityTypeMapping TypeName="RecursosModel.Tipos">
+        <MappingFragment StoreEntitySet="Tipos">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="caracteristica" ColumnName="caracteristica" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VW_Edificios_departamentos">
+      <EntityTypeMapping TypeName="RecursosModel.VW_Edificios_departamentos">
+        <MappingFragment StoreEntitySet="VW_Edificios_departamentos">
+          <ScalarProperty Name="nombre_departamento" ColumnName="nombre_departamento" />
+          <ScalarProperty Name="nombre_encargado" ColumnName="nombre_encargado" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VW_Materiales_Tipos">
+      <EntityTypeMapping TypeName="RecursosModel.VW_Materiales_Tipos">
+        <MappingFragment StoreEntitySet="VW_Materiales_Tipos">
+          <ScalarProperty Name="id_materiales" ColumnName="id_materiales" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="caracteristica" ColumnName="caracteristica" />
+          <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+          <ScalarProperty Name="costo" ColumnName="costo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VW_Pedidos_departamentos_material">
+      <EntityTypeMapping TypeName="RecursosModel.VW_Pedidos_departamentos_material">
+        <MappingFragment StoreEntitySet="VW_Pedidos_departamentos_material">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="fecha_pedido" ColumnName="fecha pedido" />
+          <ScalarProperty Name="fecha_entrega" ColumnName="fecha entrega" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="nombre_departamento" ColumnName="nombre departamento" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,179 @@
+C:\Users\Diego Becerril\Desktop\C#\Recursos Materiales\bin\Debug\Recursos Materiales.exe.config
+C:\Users\Diego Becerril\Desktop\C#\Recursos Materiales\bin\Debug\Recursos Materiales.exe
+C:\Users\Diego Becerril\Desktop\C#\Recursos Materiales\bin\Debug\Recursos Materiales.pdb
+C:\Users\Diego Becerril\Desktop\C#\Recursos Materiales\obj\Debug\Recursos Materiales.csproj.AssemblyReference.cache
+C:\Users\Diego Becerril\Desktop\C#\Recursos Materiales\obj\Debug\Recursos Materiales.csproj.SuggestedBindingRedirects.cache
+C:\Users\Diego Becerril\Desktop\C#\Recursos Materiales\obj\Debug\Recursos_Materiales.Properties.Resources.resources
+C:\Users\Diego Becerril\Desktop\C#\Recursos Materiales\obj\Debug\Recursos Materiales.csproj.GenerateResource.cache
+C:\Users\Diego Becerril\Desktop\C#\Recursos Materiales\obj\Debug\Recursos Materiales.csproj.CoreCompileInputs.cache
+C:\Users\Diego Becerril\Desktop\C#\Recursos Materiales\obj\Debug\Recursos Materiales.exe
+C:\Users\Diego Becerril\Desktop\C#\Recursos Materiales\obj\Debug\Recursos Materiales.pdb
+C:\Users\Diego Becerril\Desktop\C#\Recursos Materiales\obj\Debug\Recursos_Materiales.Login.resources
+D:\Descargas\Recursos Materiales\Recursos Materiales\bin\Debug\Recursos Materiales.exe.config
+D:\Descargas\Recursos Materiales\Recursos Materiales\bin\Debug\Recursos Materiales.exe
+D:\Descargas\Recursos Materiales\Recursos Materiales\bin\Debug\Recursos Materiales.pdb
+D:\Descargas\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos Materiales.csproj.AssemblyReference.cache
+D:\Descargas\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos Materiales.csproj.SuggestedBindingRedirects.cache
+D:\Descargas\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Inicio.resources
+D:\Descargas\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Login.resources
+D:\Descargas\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Properties.Resources.resources
+D:\Descargas\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos Materiales.csproj.GenerateResource.cache
+D:\Descargas\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos Materiales.csproj.CoreCompileInputs.cache
+D:\Descargas\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos Materiales.exe
+D:\Descargas\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos Materiales.pdb
+D:\Descargas\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.AgMat.resources
+D:\Descargas\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.ChekPedido.resources
+D:\Descargas\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.Admin.resources
+D:\Descargas\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.AgDep.resources
+D:\Descargas\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.EliDep.resources
+D:\Descargas\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.ConDep.resources
+D:\Descargas\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.EliMat.resources
+D:\Descargas\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.ConMat.resources
+D:\Descargas\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.VerPedidos.resources
+D:\Descargas\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.Pedido.resources
+C:\Users\Diego Becerril\Downloads\Recursos Materiales\Recursos Materiales\bin\Debug\Recursos Materiales.exe.config
+C:\Users\Diego Becerril\Downloads\Recursos Materiales\Recursos Materiales\bin\Debug\Recursos Materiales.exe
+C:\Users\Diego Becerril\Downloads\Recursos Materiales\Recursos Materiales\bin\Debug\Recursos Materiales.pdb
+C:\Users\Diego Becerril\Downloads\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos Materiales.csproj.AssemblyReference.cache
+C:\Users\Diego Becerril\Downloads\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos Materiales.csproj.SuggestedBindingRedirects.cache
+C:\Users\Diego Becerril\Downloads\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.AgMat.resources
+C:\Users\Diego Becerril\Downloads\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.ChekPedido.resources
+C:\Users\Diego Becerril\Downloads\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.Admin.resources
+C:\Users\Diego Becerril\Downloads\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.AgDep.resources
+C:\Users\Diego Becerril\Downloads\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.EliDep.resources
+C:\Users\Diego Becerril\Downloads\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.ConDep.resources
+C:\Users\Diego Becerril\Downloads\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.EliMat.resources
+C:\Users\Diego Becerril\Downloads\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.ConMat.resources
+C:\Users\Diego Becerril\Downloads\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.VerPedidos.resources
+C:\Users\Diego Becerril\Downloads\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.Pedido.resources
+C:\Users\Diego Becerril\Downloads\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Inicio.resources
+C:\Users\Diego Becerril\Downloads\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Login.resources
+C:\Users\Diego Becerril\Downloads\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Properties.Resources.resources
+C:\Users\Diego Becerril\Downloads\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos Materiales.csproj.GenerateResource.cache
+C:\Users\Diego Becerril\Downloads\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos Materiales.csproj.CoreCompileInputs.cache
+C:\Users\Diego Becerril\Downloads\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos Materiales.exe
+C:\Users\Diego Becerril\Downloads\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos Materiales.pdb
+C:\Users\Diego Becerril\Downloads\Recursos Materiales\Recursos Materiales\bin\Debug\EntityFramework.dll
+C:\Users\Diego Becerril\Downloads\Recursos Materiales\Recursos Materiales\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Diego Becerril\Downloads\Recursos Materiales\Recursos Materiales\bin\Debug\EntityFramework.xml
+C:\Users\Diego Becerril\Downloads\Recursos Materiales\Recursos Materiales\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Diego Becerril\Downloads\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos Materiales.csproj.CopyComplete
+D:\Documentos\Visual Studio 2022\Recursos Materiales\Recursos Materiales\bin\Debug\Recursos Materiales.exe.config
+D:\Documentos\Visual Studio 2022\Recursos Materiales\Recursos Materiales\bin\Debug\Recursos Materiales.exe
+D:\Documentos\Visual Studio 2022\Recursos Materiales\Recursos Materiales\bin\Debug\Recursos Materiales.pdb
+D:\Documentos\Visual Studio 2022\Recursos Materiales\Recursos Materiales\bin\Debug\EntityFramework.dll
+D:\Documentos\Visual Studio 2022\Recursos Materiales\Recursos Materiales\bin\Debug\EntityFramework.SqlServer.dll
+D:\Documentos\Visual Studio 2022\Recursos Materiales\Recursos Materiales\bin\Debug\EntityFramework.xml
+D:\Documentos\Visual Studio 2022\Recursos Materiales\Recursos Materiales\bin\Debug\EntityFramework.SqlServer.xml
+D:\Documentos\Visual Studio 2022\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos Materiales.csproj.AssemblyReference.cache
+D:\Documentos\Visual Studio 2022\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos Materiales.csproj.SuggestedBindingRedirects.cache
+D:\Documentos\Visual Studio 2022\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.AgMat.resources
+D:\Documentos\Visual Studio 2022\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.ChekPedido.resources
+D:\Documentos\Visual Studio 2022\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.Admin.resources
+D:\Documentos\Visual Studio 2022\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.AgDep.resources
+D:\Documentos\Visual Studio 2022\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.EliDep.resources
+D:\Documentos\Visual Studio 2022\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.ConDep.resources
+D:\Documentos\Visual Studio 2022\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.EliMat.resources
+D:\Documentos\Visual Studio 2022\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.ConMat.resources
+D:\Documentos\Visual Studio 2022\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.VerPedidos.resources
+D:\Documentos\Visual Studio 2022\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.Pedido.resources
+D:\Documentos\Visual Studio 2022\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Inicio.resources
+D:\Documentos\Visual Studio 2022\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Login.resources
+D:\Documentos\Visual Studio 2022\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Properties.Resources.resources
+D:\Documentos\Visual Studio 2022\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos Materiales.csproj.GenerateResource.cache
+D:\Documentos\Visual Studio 2022\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos Materiales.csproj.CoreCompileInputs.cache
+D:\Documentos\Visual Studio 2022\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos Materiales.csproj.CopyComplete
+D:\Documentos\Visual Studio 2022\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos Materiales.exe
+D:\Documentos\Visual Studio 2022\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos Materiales.pdb
+C:\Users\Diego Becerril\Desktop\septimo\IS\Recursos Materiales\Recursos Materiales\bin\Debug\Recursos Materiales.exe.config
+C:\Users\Diego Becerril\Desktop\septimo\IS\Recursos Materiales\Recursos Materiales\bin\Debug\Recursos Materiales.exe
+C:\Users\Diego Becerril\Desktop\septimo\IS\Recursos Materiales\Recursos Materiales\bin\Debug\Recursos Materiales.pdb
+C:\Users\Diego Becerril\Desktop\septimo\IS\Recursos Materiales\Recursos Materiales\bin\Debug\EntityFramework.dll
+C:\Users\Diego Becerril\Desktop\septimo\IS\Recursos Materiales\Recursos Materiales\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Diego Becerril\Desktop\septimo\IS\Recursos Materiales\Recursos Materiales\bin\Debug\EntityFramework.xml
+C:\Users\Diego Becerril\Desktop\septimo\IS\Recursos Materiales\Recursos Materiales\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Diego Becerril\Desktop\septimo\IS\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos Materiales.csproj.AssemblyReference.cache
+C:\Users\Diego Becerril\Desktop\septimo\IS\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos Materiales.csproj.SuggestedBindingRedirects.cache
+C:\Users\Diego Becerril\Desktop\septimo\IS\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.AgMat.resources
+C:\Users\Diego Becerril\Desktop\septimo\IS\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.ChekPedido.resources
+C:\Users\Diego Becerril\Desktop\septimo\IS\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.Admin.resources
+C:\Users\Diego Becerril\Desktop\septimo\IS\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.AgDep.resources
+C:\Users\Diego Becerril\Desktop\septimo\IS\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.EliDep.resources
+C:\Users\Diego Becerril\Desktop\septimo\IS\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.ConDep.resources
+C:\Users\Diego Becerril\Desktop\septimo\IS\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.EliMat.resources
+C:\Users\Diego Becerril\Desktop\septimo\IS\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.ConMat.resources
+C:\Users\Diego Becerril\Desktop\septimo\IS\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.VerPedidos.resources
+C:\Users\Diego Becerril\Desktop\septimo\IS\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.Pedido.resources
+C:\Users\Diego Becerril\Desktop\septimo\IS\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Inicio.resources
+C:\Users\Diego Becerril\Desktop\septimo\IS\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Login.resources
+C:\Users\Diego Becerril\Desktop\septimo\IS\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Properties.Resources.resources
+C:\Users\Diego Becerril\Desktop\septimo\IS\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos Materiales.csproj.GenerateResource.cache
+C:\Users\Diego Becerril\Desktop\septimo\IS\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos Materiales.csproj.CoreCompileInputs.cache
+C:\Users\Diego Becerril\Desktop\septimo\IS\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos Materiales.csproj.CopyComplete
+C:\Users\Diego Becerril\Desktop\septimo\IS\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos Materiales.exe
+C:\Users\Diego Becerril\Desktop\septimo\IS\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos Materiales.pdb
+C:\Users\Diego Becerril\Downloads\Recursos Materiales\Recursos Materiales\bin\Debug\Recursos Materiales.exe.manifest
+C:\Users\Diego Becerril\Downloads\Recursos Materiales\Recursos Materiales\bin\Debug\Recursos Materiales.application
+C:\Users\Diego Becerril\Downloads\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos Materiales.exe.manifest
+C:\Users\Diego Becerril\Downloads\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos Materiales.application
+C:\Users\Diego Becerril\Desktop\C#\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos Materiales.csproj.AssemblyReference.cache
+C:\Users\Diego Becerril\Desktop\C#\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos Materiales.csproj.SuggestedBindingRedirects.cache
+C:\Users\Diego Becerril\Desktop\C#\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.AgMat.resources
+C:\Users\Diego Becerril\Desktop\C#\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.ChekPedido.resources
+C:\Users\Diego Becerril\Desktop\C#\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.Admin.resources
+C:\Users\Diego Becerril\Desktop\C#\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.AgDep.resources
+C:\Users\Diego Becerril\Desktop\C#\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.EliDep.resources
+C:\Users\Diego Becerril\Desktop\C#\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.ConDep.resources
+C:\Users\Diego Becerril\Desktop\C#\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.EliMat.resources
+C:\Users\Diego Becerril\Desktop\C#\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.ConMat.resources
+C:\Users\Diego Becerril\Desktop\C#\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.VerPedidos.resources
+C:\Users\Diego Becerril\Desktop\C#\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.Pedido.resources
+C:\Users\Diego Becerril\Desktop\C#\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Inicio.resources
+C:\Users\Diego Becerril\Desktop\C#\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Login.resources
+C:\Users\Diego Becerril\Desktop\C#\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Properties.Resources.resources
+C:\Users\Diego Becerril\Desktop\C#\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos Materiales.csproj.GenerateResource.cache
+C:\Users\Diego Becerril\Desktop\C#\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos Materiales.csproj.CoreCompileInputs.cache
+C:\Users\Diego Becerril\Desktop\C#\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos Materiales.exe
+C:\Users\Diego Becerril\Desktop\C#\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos Materiales.pdb
+C:\Users\Diego Becerril\Desktop\C#\Recursos Materiales\Recursos Materiales\bin\Debug\Recursos Materiales.exe.config
+C:\Users\Diego Becerril\Desktop\C#\Recursos Materiales\Recursos Materiales\bin\Debug\Recursos Materiales.exe.manifest
+C:\Users\Diego Becerril\Desktop\C#\Recursos Materiales\Recursos Materiales\bin\Debug\Recursos Materiales.application
+C:\Users\Diego Becerril\Desktop\C#\Recursos Materiales\Recursos Materiales\bin\Debug\Recursos Materiales.exe
+C:\Users\Diego Becerril\Desktop\C#\Recursos Materiales\Recursos Materiales\bin\Debug\Recursos Materiales.pdb
+C:\Users\Diego Becerril\Desktop\C#\Recursos Materiales\Recursos Materiales\bin\Debug\EntityFramework.dll
+C:\Users\Diego Becerril\Desktop\C#\Recursos Materiales\Recursos Materiales\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Diego Becerril\Desktop\C#\Recursos Materiales\Recursos Materiales\bin\Debug\EntityFramework.xml
+C:\Users\Diego Becerril\Desktop\C#\Recursos Materiales\Recursos Materiales\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Diego Becerril\Desktop\C#\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos Materiales.exe.manifest
+C:\Users\Diego Becerril\Desktop\C#\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos Materiales.application
+C:\Users\Diego Becerril\Desktop\C#\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos Materiales.csproj.CopyComplete
+C:\Users\Diego Becerril\Desktop\Lenguajes de programación\C#\Recursos Materiales\Recursos Materiales\bin\Debug\Recursos Materiales.exe.config
+C:\Users\Diego Becerril\Desktop\Lenguajes de programación\C#\Recursos Materiales\Recursos Materiales\bin\Debug\Recursos Materiales.exe.manifest
+C:\Users\Diego Becerril\Desktop\Lenguajes de programación\C#\Recursos Materiales\Recursos Materiales\bin\Debug\Recursos Materiales.application
+C:\Users\Diego Becerril\Desktop\Lenguajes de programación\C#\Recursos Materiales\Recursos Materiales\bin\Debug\Recursos Materiales.exe
+C:\Users\Diego Becerril\Desktop\Lenguajes de programación\C#\Recursos Materiales\Recursos Materiales\bin\Debug\Recursos Materiales.pdb
+C:\Users\Diego Becerril\Desktop\Lenguajes de programación\C#\Recursos Materiales\Recursos Materiales\bin\Debug\EntityFramework.dll
+C:\Users\Diego Becerril\Desktop\Lenguajes de programación\C#\Recursos Materiales\Recursos Materiales\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Diego Becerril\Desktop\Lenguajes de programación\C#\Recursos Materiales\Recursos Materiales\bin\Debug\EntityFramework.xml
+C:\Users\Diego Becerril\Desktop\Lenguajes de programación\C#\Recursos Materiales\Recursos Materiales\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Diego Becerril\Desktop\Lenguajes de programación\C#\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos Materiales.csproj.AssemblyReference.cache
+C:\Users\Diego Becerril\Desktop\Lenguajes de programación\C#\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.AgMat.resources
+C:\Users\Diego Becerril\Desktop\Lenguajes de programación\C#\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.ChekPedido.resources
+C:\Users\Diego Becerril\Desktop\Lenguajes de programación\C#\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.Admin.resources
+C:\Users\Diego Becerril\Desktop\Lenguajes de programación\C#\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.AgDep.resources
+C:\Users\Diego Becerril\Desktop\Lenguajes de programación\C#\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.EliDep.resources
+C:\Users\Diego Becerril\Desktop\Lenguajes de programación\C#\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.ConDep.resources
+C:\Users\Diego Becerril\Desktop\Lenguajes de programación\C#\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.EliMat.resources
+C:\Users\Diego Becerril\Desktop\Lenguajes de programación\C#\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.ConMat.resources
+C:\Users\Diego Becerril\Desktop\Lenguajes de programación\C#\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.VerPedidos.resources
+C:\Users\Diego Becerril\Desktop\Lenguajes de programación\C#\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Interfacez.Pedido.resources
+C:\Users\Diego Becerril\Desktop\Lenguajes de programación\C#\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Inicio.resources
+C:\Users\Diego Becerril\Desktop\Lenguajes de programación\C#\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Login.resources
+C:\Users\Diego Becerril\Desktop\Lenguajes de programación\C#\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos_Materiales.Properties.Resources.resources
+C:\Users\Diego Becerril\Desktop\Lenguajes de programación\C#\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos Materiales.csproj.GenerateResource.cache
+C:\Users\Diego Becerril\Desktop\Lenguajes de programación\C#\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos Materiales.csproj.CoreCompileInputs.cache
+C:\Users\Diego Becerril\Desktop\Lenguajes de programación\C#\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos Materiales.exe.manifest
+C:\Users\Diego Becerril\Desktop\Lenguajes de programación\C#\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos Materiales.application
+C:\Users\Diego Becerril\Desktop\Lenguajes de programación\C#\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos Materiales.csproj.CopyComplete
+C:\Users\Diego Becerril\Desktop\Lenguajes de programación\C#\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos Materiales.exe
+C:\Users\Diego Becerril\Desktop\Lenguajes de programación\C#\Recursos Materiales\Recursos Materiales\obj\Debug\Recursos Materiales.pdb

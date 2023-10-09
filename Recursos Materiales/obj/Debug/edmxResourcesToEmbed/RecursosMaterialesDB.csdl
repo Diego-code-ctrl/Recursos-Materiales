@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Departamentos">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Decimal" Precision="18" Scale="0" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre_departamento" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="contrasena" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="nombre_encargado" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="id_edificio" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <NavigationProperty Name="Edificios" Relationship="Self.FK_Departamentos_Edificios" FromRole="Departamentos" ToRole="Edificios" />
+    <NavigationProperty Name="Pedidos" Relationship="Self.FK_Pedidos_Departamentos" FromRole="Departamentos" ToRole="Pedidos" />
+  </EntityType>
+  <EntityType Name="Edificios">
+    <Key>
+      <PropertyRef Name="id_edificio" />
+    </Key>
+    <Property Name="id_edificio" Type="Decimal" Precision="18" Scale="0" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Departamentos" Relationship="Self.FK_Departamentos_Edificios" FromRole="Edificios" ToRole="Departamentos" />
+  </EntityType>
+  <EntityType Name="Materiales">
+    <Key>
+      <PropertyRef Name="id_materiales" />
+    </Key>
+    <Property Name="id_materiales" Type="Decimal" Precision="18" Scale="0" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="id_tipo" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="cantidad" Type="Decimal" Precision="10" Scale="0" Nullable="false" />
+    <Property Name="costo" Type="Decimal" Precision="6" Scale="2" Nullable="false" />
+    <NavigationProperty Name="Tipos" Relationship="Self.FK_Materiales_Tipos" FromRole="Materiales" ToRole="Tipos" />
+    <NavigationProperty Name="Pedidos" Relationship="Self.FK_Pedidos_Materiales" FromRole="Materiales" ToRole="Pedidos" />
+  </EntityType>
+  <EntityType Name="Pedidos">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Decimal" Precision="18" Scale="0" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="fecha_pedido" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="fecha_entregado" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="id_material" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="id_departamento" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="status" Type="Decimal" Precision="1" Scale="0" Nullable="false" />
+    <Property Name="cantidad" Type="Decimal" Precision="10" Scale="0" Nullable="false" />
+    <NavigationProperty Name="Departamentos" Relationship="Self.FK_Pedidos_Departamentos" FromRole="Pedidos" ToRole="Departamentos" />
+    <NavigationProperty Name="Materiales" Relationship="Self.FK_Pedidos_Materiales" FromRole="Pedidos" ToRole="Materiales" />
+  </EntityType>
+  <EntityType Name="Tipos">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Decimal" Precision="18" Scale="0" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="caracteristica" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Materiales" Relationship="Self.FK_Materiales_Tipos" FromRole="Tipos" ToRole="Materiales" />
+  </EntityType>
+  <EntityType Name="VW_Edificios_departamentos">
+    <Key>
+      <PropertyRef Name="nombre_departamento" />
+      <PropertyRef Name="nombre_encargado" />
+      <PropertyRef Name="nombre" />
+    </Key>
+    <Property Name="nombre_departamento" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="nombre_encargado" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="VW_Materiales_Tipos">
+    <Key>
+      <PropertyRef Name="id_materiales" />
+      <PropertyRef Name="nombre" />
+      <PropertyRef Name="caracteristica" />
+      <PropertyRef Name="cantidad" />
+      <PropertyRef Name="costo" />
+    </Key>
+    <Property Name="id_materiales" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="caracteristica" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="cantidad" Type="Decimal" Precision="10" Scale="0" Nullable="false" />
+    <Property Name="costo" Type="Decimal" Precision="6" Scale="2" Nullable="false" />
+  </EntityType>
+  <EntityType Name="VW_Pedidos_departamentos_material">
+    <Key>
+      <PropertyRef Name="id" />
+      <PropertyRef Name="fecha_pedido" />
+      <PropertyRef Name="fecha_entrega" />
+      <PropertyRef Name="nombre" />
+      <PropertyRef Name="nombre_departamento" />
+      <PropertyRef Name="cantidad" />
+    </Key>
+    <Property Name="id" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="fecha_pedido" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="fecha_entrega" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="nombre_departamento" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="status" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Name="cantidad" Type="Decimal" Precision="10" Scale="0" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Departamentos_Edificios">
+    <End Role="Edificios" Type="Self.Edificios" Multiplicity="1" />
+    <End Role="Departamentos" Type="Self.Departamentos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Edificios">
+        <PropertyRef Name="id_edificio" />
+      </Principal>
+      <Dependent Role="Departamentos">
+        <PropertyRef Name="id_edificio" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Pedidos_Departamentos">
+    <End Role="Departamentos" Type="Self.Departamentos" Multiplicity="1" />
+    <End Role="Pedidos" Type="Self.Pedidos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Departamentos">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Pedidos">
+        <PropertyRef Name="id_departamento" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Materiales_Tipos">
+    <End Role="Tipos" Type="Self.Tipos" Multiplicity="1" />
+    <End Role="Materiales" Type="Self.Materiales" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tipos">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Materiales">
+        <PropertyRef Name="id_tipo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Pedidos_Materiales">
+    <End Role="Materiales" Type="Self.Materiales" Multiplicity="1" />
+    <End Role="Pedidos" Type="Self.Pedidos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Materiales">
+        <PropertyRef Name="id_materiales" />
+      </Principal>
+      <Dependent Role="Pedidos">
+        <PropertyRef Name="id_material" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="RecursosEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Departamentos" EntityType="Self.Departamentos" />
+    <EntitySet Name="Edificios" EntityType="Self.Edificios" />
+    <EntitySet Name="Materiales" EntityType="Self.Materiales" />
+    <EntitySet Name="Pedidos" EntityType="Self.Pedidos" />
+    <EntitySet Name="Tipos" EntityType="Self.Tipos" />
+    <EntitySet Name="VW_Edificios_departamentos" EntityType="Self.VW_Edificios_departamentos" />
+    <EntitySet Name="VW_Materiales_Tipos" EntityType="Self.VW_Materiales_Tipos" />
+    <EntitySet Name="VW_Pedidos_departamentos_material" EntityType="Self.VW_Pedidos_departamentos_material" />
+    <AssociationSet Name="FK_Departamentos_Edificios" Association="Self.FK_Departamentos_Edificios">
+      <End Role="Edificios" EntitySet="Edificios" />
+      <End Role="Departamentos" EntitySet="Departamentos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Pedidos_Departamentos" Association="Self.FK_Pedidos_Departamentos">
+      <End Role="Departamentos" EntitySet="Departamentos" />
+      <End Role="Pedidos" EntitySet="Pedidos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Materiales_Tipos" Association="Self.FK_Materiales_Tipos">
+      <End Role="Tipos" EntitySet="Tipos" />
+      <End Role="Materiales" EntitySet="Materiales" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Pedidos_Materiales" Association="Self.FK_Pedidos_Materiales">
+      <End Role="Materiales" EntitySet="Materiales" />
+      <End Role="Pedidos" EntitySet="Pedidos" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

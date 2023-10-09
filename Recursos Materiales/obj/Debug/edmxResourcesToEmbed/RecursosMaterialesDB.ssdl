@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Departamentos">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="numeric" Precision="18" Scale="0" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre_departamento" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="contrasena" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="nombre_encargado" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="id_edificio" Type="numeric" Precision="18" Scale="0" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Edificios">
+    <Key>
+      <PropertyRef Name="id_edificio" />
+    </Key>
+    <Property Name="id_edificio" Type="numeric" Precision="18" Scale="0" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Materiales">
+    <Key>
+      <PropertyRef Name="id_materiales" />
+    </Key>
+    <Property Name="id_materiales" Type="numeric" Precision="18" Scale="0" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="id_tipo" Type="numeric" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="cantidad" Type="numeric" Precision="10" Scale="0" Nullable="false" />
+    <Property Name="costo" Type="numeric" Precision="6" Scale="2" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Pedidos">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="numeric" Precision="18" Scale="0" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="fecha_pedido" Type="date" Nullable="false" />
+    <Property Name="fecha_entregado" Type="date" Nullable="false" />
+    <Property Name="id_material" Type="numeric" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="id_departamento" Type="numeric" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="status" Type="numeric" Precision="1" Scale="0" Nullable="false" />
+    <Property Name="cantidad" Type="numeric" Precision="10" Scale="0" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Tipos">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="numeric" Precision="18" Scale="0" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="caracteristica" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'Recursos Materiales.dbo.VW_Edificios_departamentos' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="VW_Edificios_departamentos">
+    <Key>
+      <PropertyRef Name="nombre_departamento" />
+      <PropertyRef Name="nombre_encargado" />
+      <PropertyRef Name="nombre" />
+    </Key>
+    <Property Name="nombre_departamento" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="nombre_encargado" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'Recursos Materiales.dbo.VW_Materiales_Tipos' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="VW_Materiales_Tipos">
+    <Key>
+      <PropertyRef Name="id_materiales" />
+      <PropertyRef Name="nombre" />
+      <PropertyRef Name="caracteristica" />
+      <PropertyRef Name="cantidad" />
+      <PropertyRef Name="costo" />
+    </Key>
+    <Property Name="id_materiales" Type="numeric" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="caracteristica" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="cantidad" Type="numeric" Precision="10" Scale="0" Nullable="false" />
+    <Property Name="costo" Type="numeric" Precision="6" Scale="2" Nullable="false" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'Recursos Materiales.dbo.VW_Pedidos_departamentos_material' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="VW_Pedidos_departamentos_material">
+    <Key>
+      <PropertyRef Name="id" />
+      <PropertyRef Name="fecha pedido" />
+      <PropertyRef Name="fecha entrega" />
+      <PropertyRef Name="nombre" />
+      <PropertyRef Name="nombre departamento" />
+      <PropertyRef Name="cantidad" />
+    </Key>
+    <Property Name="id" Type="numeric" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="fecha pedido" Type="date" Nullable="false" />
+    <Property Name="fecha entrega" Type="date" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="nombre departamento" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="status" Type="varchar" MaxLength="12" />
+    <Property Name="cantidad" Type="numeric" Precision="10" Scale="0" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Departamentos_Edificios">
+    <End Role="Edificios" Type="Self.Edificios" Multiplicity="1" />
+    <End Role="Departamentos" Type="Self.Departamentos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Edificios">
+        <PropertyRef Name="id_edificio" />
+      </Principal>
+      <Dependent Role="Departamentos">
+        <PropertyRef Name="id_edificio" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Materiales_Tipos">
+    <End Role="Tipos" Type="Self.Tipos" Multiplicity="1" />
+    <End Role="Materiales" Type="Self.Materiales" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tipos">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Materiales">
+        <PropertyRef Name="id_tipo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Pedidos_Departamentos">
+    <End Role="Departamentos" Type="Self.Departamentos" Multiplicity="1" />
+    <End Role="Pedidos" Type="Self.Pedidos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Departamentos">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Pedidos">
+        <PropertyRef Name="id_departamento" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Pedidos_Materiales">
+    <End Role="Materiales" Type="Self.Materiales" Multiplicity="1" />
+    <End Role="Pedidos" Type="Self.Pedidos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Materiales">
+        <PropertyRef Name="id_materiales" />
+      </Principal>
+      <Dependent Role="Pedidos">
+        <PropertyRef Name="id_material" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ModelStoreContainer">
+    <EntitySet Name="Departamentos" EntityType="Self.Departamentos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Edificios" EntityType="Self.Edificios" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Materiales" EntityType="Self.Materiales" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Pedidos" EntityType="Self.Pedidos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tipos" EntityType="Self.Tipos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="VW_Edificios_departamentos" EntityType="Self.VW_Edificios_departamentos" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [VW_Edificios_departamentos].[nombre_departamento] AS [nombre_departamento], 
+    [VW_Edificios_departamentos].[nombre_encargado] AS [nombre_encargado], 
+    [VW_Edificios_departamentos].[nombre] AS [nombre]
+    FROM [dbo].[VW_Edificios_departamentos] AS [VW_Edificios_departamentos]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="VW_Materiales_Tipos" EntityType="Self.VW_Materiales_Tipos" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [VW_Materiales_Tipos].[id_materiales] AS [id_materiales], 
+    [VW_Materiales_Tipos].[nombre] AS [nombre], 
+    [VW_Materiales_Tipos].[caracteristica] AS [caracteristica], 
+    [VW_Materiales_Tipos].[cantidad] AS [cantidad], 
+    [VW_Materiales_Tipos].[costo] AS [costo]
+    FROM [dbo].[VW_Materiales_Tipos] AS [VW_Materiales_Tipos]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="VW_Pedidos_departamentos_material" EntityType="Self.VW_Pedidos_departamentos_material" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [VW_Pedidos_departamentos_material].[id] AS [id], 
+    [VW_Pedidos_departamentos_material].[fecha pedido] AS [fecha pedido], 
+    [VW_Pedidos_departamentos_material].[fecha entrega] AS [fecha entrega], 
+    [VW_Pedidos_departamentos_material].[nombre] AS [nombre], 
+    [VW_Pedidos_departamentos_material].[nombre departamento] AS [nombre departamento], 
+    [VW_Pedidos_departamentos_material].[status] AS [status], 
+    [VW_Pedidos_departamentos_material].[cantidad] AS [cantidad]
+    FROM [dbo].[VW_Pedidos_departamentos_material] AS [VW_Pedidos_departamentos_material]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_Departamentos_Edificios" Association="Self.FK_Departamentos_Edificios">
+      <End Role="Edificios" EntitySet="Edificios" />
+      <End Role="Departamentos" EntitySet="Departamentos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Materiales_Tipos" Association="Self.FK_Materiales_Tipos">
+      <End Role="Tipos" EntitySet="Tipos" />
+      <End Role="Materiales" EntitySet="Materiales" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Pedidos_Departamentos" Association="Self.FK_Pedidos_Departamentos">
+      <End Role="Departamentos" EntitySet="Departamentos" />
+      <End Role="Pedidos" EntitySet="Pedidos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Pedidos_Materiales" Association="Self.FK_Pedidos_Materiales">
+      <End Role="Materiales" EntitySet="Materiales" />
+      <End Role="Pedidos" EntitySet="Pedidos" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

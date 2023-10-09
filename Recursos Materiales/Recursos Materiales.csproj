@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{70CA6B7D-9D96-4967-BE54-AE4FFE5D3A2A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Recursos_Materiales</RootNamespace>
+    <AssemblyName>Recursos Materiales</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Diego Becerril\Desktop\Proyecto final\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Logo ITTOl.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>959AA03910B6E2FEB66672BB506DAF08ED1317D5</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Recursos Materiales_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Clases\Departamentos.cs" />
+    <Compile Include="Clases\Edificios.cs" />
+    <Compile Include="Clases\Llamadas.cs" />
+    <Compile Include="Clases\Materiales.cs" />
+    <Compile Include="Clases\Pedidos.cs" />
+    <Compile Include="Clases\Tipos.cs" />
+    <Compile Include="Datos\DepActual.cs" />
+    <Compile Include="Datos\Insertar.cs" />
+    <Compile Include="Departamentos.cs">
+      <DependentUpon>RecursosMaterialesDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Edificios.cs">
+      <DependentUpon>RecursosMaterialesDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Interfacez\CheckPedidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfacez\CheckPedidos.Designer.cs">
+      <DependentUpon>CheckPedidos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfacez\Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfacez\Admin.Designer.cs">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfacez\AgDep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfacez\AgDep.Designer.cs">
+      <DependentUpon>AgDep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfacez\Eldep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfacez\Eldep.Designer.cs">
+      <DependentUpon>Eldep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfacez\ConDep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfacez\ConDep.Designer.cs">
+      <DependentUpon>ConDep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfacez\AgMat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfacez\AgMat.Designer.cs">
+      <DependentUpon>AgMat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfacez\EliMat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfacez\EliMat.Designer.cs">
+      <DependentUpon>EliMat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfacez\ConMat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfacez\ConMat.Designer.cs">
+      <DependentUpon>ConMat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfacez\VerPedidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfacez\VerPedidos.Designer.cs">
+      <DependentUpon>VerPedidos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfacez\Pedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfacez\Pedido.Designer.cs">
+      <DependentUpon>Pedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfacez\Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfacez\Inicio.Designer.cs">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfacez\Inicio1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Inicio.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Interfacez\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfacez\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Materiales.cs">
+      <DependentUpon>RecursosMaterialesDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Pedidos.cs">
+      <DependentUpon>RecursosMaterialesDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RecursosMaterialesDB.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RecursosMaterialesDB.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RecursosMaterialesDB.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RecursosMaterialesDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RecursosMaterialesDB.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RecursosMaterialesDB.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Tipos.cs">
+      <DependentUpon>RecursosMaterialesDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VW_Edificios_departamentos.cs">
+      <DependentUpon>RecursosMaterialesDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VW_Materiales_Tipos.cs">
+      <DependentUpon>RecursosMaterialesDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VW_Pedidos_departamentos_material.cs">
+      <DependentUpon>RecursosMaterialesDB.tt</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Interfacez\AgMat.resx">
+      <DependentUpon>AgMat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfacez\CheckPedidos.resx">
+      <DependentUpon>CheckPedidos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfacez\Admin.resx">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfacez\AgDep.resx">
+      <DependentUpon>AgDep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfacez\Eldep.resx">
+      <DependentUpon>Eldep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfacez\ConDep.resx">
+      <DependentUpon>ConDep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfacez\EliMat.resx">
+      <DependentUpon>EliMat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfacez\ConMat.resx">
+      <DependentUpon>ConMat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfacez\VerPedidos.resx">
+      <DependentUpon>VerPedidos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfacez\Pedido.resx">
+      <DependentUpon>Pedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfacez\Inicio.resx">
+      <DependentUpon>Inicio.cs</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Inicio1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfacez\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recursos Materiales_TemporaryKey.pfx" />
+    <EntityDeploy Include="RecursosMaterialesDB.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>RecursosMaterialesDB.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="RecursosMaterialesDB.edmx.diagram">
+      <DependentUpon>RecursosMaterialesDB.edmx</DependentUpon>
+    </None>
+    <None Include="Resources\button1.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carro-de-la-carretilla.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Logo ITTOl.ico" />
+    <Content Include="RecursosMaterialesDB.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>RecursosMaterialesDB.edmx</DependentUpon>
+      <LastGenOutput>RecursosMaterialesDB.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="RecursosMaterialesDB.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>RecursosMaterialesDB.edmx</DependentUpon>
+      <LastGenOutput>RecursosMaterialesDB.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
